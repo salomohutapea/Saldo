@@ -12,7 +12,7 @@ namespace Chapter3
 {
     public partial class Form1 : Form
     {
-        Akun akun1 = new Akun(20000, "password");
+        Akun akun1 = new Akun(20000, "hiyahiyahiya");
         public Form1()
         {
             InitializeComponent();

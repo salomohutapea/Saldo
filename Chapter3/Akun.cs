@@ -9,8 +9,9 @@ namespace Chapter3
     public class Akun
     {
         private const int maxSaldo = 2000000;
-        private int _saldo;
+        private int _saldo; //protected untuk LAB 3.3
         protected string password;
+
         public int Saldo
         {
             get
@@ -27,15 +28,18 @@ namespace Chapter3
                     _saldo = value;
             }
         }
+
         public Akun(int saldo, string password)
         {
             _saldo = saldo;
             this.password = password;
         }
+        // Tambahkan virtual pada meethod Setor() dan Tarik() di LAB 3.3
         public void Setor(int jumlah)
         {
             Saldo += jumlah;
         }
+
         public void Tarik(int jumlah)
 
         {
