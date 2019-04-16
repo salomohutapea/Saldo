@@ -7,8 +7,9 @@ namespace Chapter3
 {
     //public class AkunPremium : Akun
     //{
-    //    public AkunPremium(int saldo, string password) : base(saldo, password)
+    //    public AkunPremium(/*int id, LAB 3.4*/int saldo, string password) : base(/*id, */saldo, password)
     //    {
+              //Id = Id; LAB 3.4
     //        this.password = password;
     //        Saldo = saldo;
     //    }
